@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+    </style>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+
+        .left {}
+
+        body {
+            background-color: rgb(28, 14, 41);
+            color: white;
+            font-family: 'Poppins' sans-serif;
+            margin: 10px;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 4rem;
+            background-color: transparent;
+           backdrop-filter: blur(15px);
+           border-radius: 20px  ;
+           border:2px solid rgb(4, 50, 1)
+           
+
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            list-style: none;
+            margin: 0px 23px
+        }
+
+        nav .left {
+            margin: 0px;
+        }
+
+        .left {
+            font-size: 1.4rem;
+        }
+.first{
+    display: flex;
+    /* background-color: blue;  */
+    /* justify-content: space-around; */
+    justify-content: space-between;
+    padding: 4rem;
+  
+}
+.leftsection{
+    /* background-color: red; */
+    font-size: 50px;
+   text-decoration: rgb(52, 34, 10) ;
+   text-align: left;
+   width: 50%;
+   padding: 2rem;
+   
+}
+.leftsectiondiv{
+    margin: 30px;
+    font-size: 1.2rem;
+    text-align: left;
+}
+.btn{
+    padding: 12px;
+    color: white;
+    background-color: rgba(48, 48, 79, 0.571);
+    margin-top: 3rem;
+    border: 2px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 20px;
+     align-items: center;
+     margin-left: 50px;
+     margin-top: ;
+}
+.firstdiv{
+    width: 30px;
+
+}
+.purple
+{
+    color: blue;
+}
+.first.rightsection{
+    /* background-color: red; */
+    justify-content: right;
+    align-items: right;
+}
+.rightsection {
+    /* margin-left/: 550px; */
+}
+
+.webd-image {
+    max-width: 100%; /* Ensure the image does not exceed its container */
+    height: auto; /* Maintain the aspect ratio of the image */
+}
+
+
+.webd-image {
+    margin-top: 20px; /* Adjust the top margin as needed */
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.5rem;
+}
+nav ul li a:hover{
+    color: rgb(22, 0, 49);
+/* text-decoration: wavy; */
+    
+}
+.secondsection{
+    max-width: 80vw;
+    margin: auto;
+    padding-top: 20px;
+    height:280px;
+}
+.secondsection h1{
+    font-size: 1.6rem;
+    text-align: justify;
+}
+hr{
+    border-color: rgb(16, 24, 91);
+    height: 1.1px;
+    width: auto;
+}
+.Grey{
+    color: gray;
+ margin: 0;padding: 0;
+}
+body {
+  background-image: url(portfoliowebd.jpg);
+  background-size: cover; /* You can use other values like 'contain' or specific dimensions */
+  background-repeat: no-repeat;
+}
+.secondsection .box{
+    background-color: white;
+    min-width: auto;
+    width: 810px;
+    height: 2px;
+    margin: 56px 0;
+    display: flex;
+    margin-left: 23px;
+    margin-top: 12px;
+
+}
+.secondsection .vertical{
+    
+    width: 2px;
+    height: 94px;
+    background-color: white;
+    /* display: flex; */
+    margin :0 100px
+}
+.vertical-title{
+    font-size: 1.2rem;
+    position: relative;
+    top: 95px;
+    /* left: -9px; */
+width: 150px;
+}
+.vertical-desc{
+    position: relative;
+    top: 96px;
+    color: gray;
+    width: 150px;
+    font-size: 9px;
+}
+h3{
+    padding-left: 0px;
+    margin-left: 0px;
+}
+/* ... Your existing styles ... */
+
+.footer-first{
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 80vw;
+}
+
+.contact-me
+{
+    font-size: 3rem;
+}
+
+.footer_list{
+    display: flex;
+    gap: 20px;
+}
+.footer_top_list{
+    display: flex;
+    flex-flow: column;
+    gap: 20px;
+}
+
+footer{
+    margin-top: 50px;
+    margin-bottom: 60px;
+}
+
+.images{
+    height:40px;
+    width:40px;
+    border-radius: 12px;
+}
+
+.footer_main_heading{
+    font-size: 2.5rem;
+    word-spacing: 15px;
+    font-weight: bold;
+}
+
+
+.social_media_handles{
+
+    font-size: 1.3rem;
+    font-weight: 400;
+    margin-top: 8px;
+}
+
+
+    </style>
+</head>
+<script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+<body>
+    <link rel="stylesheet" href="first">
+    <header>
+        <nav>
+            <div class="left">Manas Bhutada</div>
+            <div class="right">
+                <ul>
+                    <li><a href="/">Home</a>
+                    </li>
+                    <li><a href="/">About</a>
+                    </li>
+                    <li><a href="/">Services</a>
+                   </li>
+                    <li><a href="/">More </a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <setion class="first" id="first">
+            
+            <div class="leftsection">Hii!Guys I am Manas  
+            <div>I am a passionate</div>
+            <!-- <div>Web Devloper</div> -->
+            <span id="element"></span>
+
+                <div class="buttons">
+            <button class="btn">Download Resume</button>
+            </div>
+            </div>
+            <div class="rightsection"><img height="450" width="480"src=bgimage.png alt="WebdImage">
+            </div>
+        </setion>
+        <hr>
+        <section class="secondsection">
+            <span class="Grey"> What I Have Done So far</span>
+            <h1>Areas of Work</h1>
+            <div class="box">
+                <div class="vertical">
+                    <div class="vertical-title">
+                        Data Structures & Alogriths
+                    </div>
+                    <div class="vertical-desc"></div>
+                </div>
+            
+                <div class="vertical"> 
+                    <div class="vertical-title">
+                    Competitive Programming
+                </div>
+                <div class="vertical-desc">
+                <!-- Practiced 250+ questions on Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam, saepe excepturi quos repellendus beatae soluta corrupti ut quisquam sed expedita repellat suscipit odit dolorem magnam consequuntur voluptate nam aspernatur tenetur vero voluptatum architecto, esse, laudantium veritatis ipsum! Nulla laboriosam porro fugit suscipit! Ipsum, cumque doloribus? -->
+                </div>
+                </div>
+        <div class="vertical"> <div class="vertical-title">
+           Web-Devlopment
+        </div>
+        <div class="vertical-desc">
+            <!-- Practiced 250+ questions on Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam, saepe excepturi quos repellendus beatae soluta corrupti ut quisquam sed expedita repellat suscipit odit dolorem magnam consequuntur voluptate nam aspernatur tenetur vero voluptatum architecto, esse, laudantium veritatis ipsum! Nulla laboriosam porro fugit suscipit! Ipsum, cumque doloribus? -->
+        </div>
+        
+    </div>
+    <div class="vertical"> <div class="vertical-title">
+       Sponsorship and Management
+    </div>
+    <div class="vertical-desc">
+          <!-- Practiced 250+ questions on Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam, saepe excepturi quos repellendus beatae soluta corrupti ut quisquam sed expedita repellat suscipit odit dolorem magnam consequuntur voluptate nam aspernatur tenetur vero voluptatum architecto, esse, laudantium veritatis ipsum! Nulla laboriosam porro fugit suscipit! Ipsum, cumque doloribus? -->
+    </div>
+</div>
+    
+            </div>
+      
+        
+            <!-- <div class="vertical"></div>     -->
+           </div>
+           
+        </section>
+    </main>
+    <script>
+        var typed = new Typed('#element', {
+          strings: ['Web Devloper', 'Competitive Programmer','Sponsorship Executive'],
+          typeSpeed: 50,
+        });
+      </script>
+      <hr class="">
+    <footer>
+        <div class="footer-first">
+            <div class="footer_main_heading">CONTACT ME</div>
+            <div>
+                <ul class="footer_top_list">
+                    <li class="footer_list">
+                        <img src="./IMAGES_FOR_THE_PORTFOLIO_WEBSITE/instagram.svg" alt="" class="images">
+                        <p class="social_media_handles"><a href="https://www.instagram.com/manasbhutada/">INSTAGRAM</a></p>
+                    </li>
+                    <li class="footer_list">
+                        <img src="./IMAGES_FOR_THE_PORTFOLIO_WEBSITE/icons8-github-50.png" alt="" class="images">
+                        <p class="social_media_handles">GITHUB</p>
+                    </li>
+                    <li class="footer_list">
+                        <img src="./IMAGES_FOR_THE_PORTFOLIO_WEBSITE/317750_linkedin_icon.png" alt="" class="images">
+                        <p class="social_media_handles"><a href="https://www.linkedin.com/in/manas-bhutada-203162250/">LINKEDIN</a>
+                        </p>
+                        
+                    </li>
+                </ul>
+            </div>
+            <!-- <div>CALL ME ON</div> -->
+        </div>
+    </footer>
+</body>
+
+</html>
